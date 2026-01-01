@@ -55,7 +55,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       <nav className="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
         <div className="flex items-center gap-2 font-bold text-xl tracking-tight">
           <GraduationCap className="w-8 h-8 text-blue-600" />
-          <span>ScholarTrack</span>
+          <span>CScholarTrack</span>
         </div>
         <button 
           onClick={onGetStarted}
@@ -203,7 +203,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
 
       <footer className="bg-gray-50 py-12 px-6">
         <div className="max-w-6xl mx-auto text-center text-sm text-gray-400">
-          <p>© 2024 ScholarTrack. Your gateway to global education.</p>
+          <p>© 2024 CScholarTrack. Your gateway to global education.</p>
         </div>
       </footer>
     </div>

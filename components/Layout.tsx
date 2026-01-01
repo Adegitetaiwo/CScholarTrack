@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onLogout, username }) => {
           <div className="bg-blue-600 p-2 rounded-lg shadow-lg shadow-blue-500/20">
             <GraduationCap className="w-6 h-6 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight text-white">ScholarTrack</span>
+          <span className="text-xl font-bold tracking-tight text-white">CScholarTrack</span>
         </div>
 
         <nav className="flex-1 px-4 py-4 space-y-1">
@@ -94,7 +94,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onLogout, username }) => {
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-3">
                 <GraduationCap className="w-8 h-8 text-blue-500" />
-                <span className="text-xl font-bold">ScholarTrack</span>
+                <span className="text-xl font-bold">CScholarTrack</span>
               </div>
               <button onClick={closeMenu} className="p-2 text-gray-400 hover:text-white transition-colors">
                 <X className="w-6 h-6" />
