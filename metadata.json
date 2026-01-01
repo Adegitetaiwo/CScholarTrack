@@ -1,0 +1,7 @@
+{
+  "name": "ScholarTrack AI",
+  "description": "A comprehensive scholarship application management system for graduate students, featuring AI-powered document checklists, deadline tracking, and document reuse management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
