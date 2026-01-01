@@ -1,6 +1,6 @@
 {
   "name": "CScholarTrack",
-  "description": "A comprehensive scholarship application management system for graduate students, featuring AI-powered document checklists, deadline tracking, and document reuse management.",
+  "description": "A professional management tool to track and organize your graduate school scholarship applications. We provide the structure to help you secure external funding through organized document management and deadline tracking.",
   "requestFramePermissions": [
     "camera"
   ]

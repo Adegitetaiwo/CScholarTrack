@@ -11,7 +11,8 @@ import {
   Search, 
   Lightbulb,
   ExternalLink,
-  Sparkles
+  Sparkles,
+  Info
 } from 'lucide-react';
 
 interface LandingPageProps {
@@ -68,12 +69,16 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       <main className="max-w-6xl mx-auto px-6 pt-12 pb-32">
         {/* Hero Section */}
         <div className="max-w-4xl mb-24">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-xs font-bold mb-6">
+            <Info className="w-4 h-4" />
+            <span>Management tool for external scholarship applications</span>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
             Stay organized. <br/>
-            <span className="text-blue-600">Get funded.</span>
+            Prepare better. <span className="text-blue-600">Get funded.</span>
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-2xl leading-relaxed">
-            The simple tracker for PhD and Masters scholarship applications. Manage documents once, set reminders, and never miss a deadline again.
+            The professional management tool for PhD and Masters scholarship applicants. CScholarTrack helps you organize your path to securing external funding from the world's top programs.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -81,7 +86,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               onClick={onGetStarted}
               className="px-8 py-4 bg-gray-900 text-white rounded-xl font-bold text-lg hover:bg-black transition-all flex items-center justify-center gap-3 shadow-xl"
             >
-              Start Tracking Now <ArrowRight className="w-5 h-5" />
+              Start My Journey <ArrowRight className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -92,22 +97,22 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
               <ClipboardCheck className="w-6 h-6 text-blue-600" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Central Repository</h3>
-            <p className="text-gray-500 text-sm">Store all your applications in one place. Manually update status as you move through the process.</p>
+            <h3 className="font-bold text-lg mb-2">Track Every Lead</h3>
+            <p className="text-gray-500 text-sm">Organize all your potential funding sources in one dashboard. We provide the structure to manage external application portals effectively.</p>
           </div>
           <div>
             <div className="w-12 h-12 bg-amber-50 rounded-lg flex items-center justify-center mb-6">
               <Bell className="w-6 h-6 text-amber-600" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Smart Reminders</h3>
-            <p className="text-gray-500 text-sm">Deadlines for both applications and individual documents to keep you on schedule.</p>
+            <h3 className="font-bold text-lg mb-2">Milestone Alerts</h3>
+            <p className="text-gray-500 text-sm">Internal deadlines for both applications and individual documents ensure you are always ahead of the final closing date.</p>
           </div>
           <div>
             <div className="w-12 h-12 bg-emerald-50 rounded-lg flex items-center justify-center mb-6">
               <Clock className="w-6 h-6 text-emerald-600" />
             </div>
-            <h3 className="font-bold text-lg mb-2">Document Reuse</h3>
-            <p className="text-gray-500 text-sm">Upload reusable files like your Passport once. Link them to multiple schools in seconds.</p>
+            <h3 className="font-bold text-lg mb-2">Document Hub</h3>
+            <p className="text-gray-500 text-sm">Upload reusable files like your Passport and Transcripts once. Use them to prepare for multiple program applications in seconds.</p>
           </div>
         </div>
 
@@ -150,10 +155,10 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                   <div className="p-3 bg-blue-600 rounded-2xl">
                     <Search className="w-6 h-6" />
                   </div>
-                  <h2 className="text-2xl font-bold">Research Mastery</h2>
+                  <h2 className="text-2xl font-bold">Find External Funding</h2>
                 </div>
                 <p className="text-gray-400 mb-8 leading-relaxed">
-                  YouTube is a goldmine for scholarship applicants if you know how to dig. Use these professional search tips to uncover hidden opportunities.
+                  YouTube is a goldmine for discovering global scholarships. Use these professional search strategies to find opportunities to track in your dashboard.
                 </p>
                 <div className="space-y-4">
                   {[
@@ -192,7 +197,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                 <div className="mt-8 pt-8 border-t border-white/10">
                   <p className="text-xs text-gray-500 uppercase font-black tracking-widest mb-4">Pro Tip</p>
                   <p className="text-sm text-gray-300 italic">
-                    "When searching for scholarship videos, sort by 'Upload Date' to find the most recent application windows and requirements."
+                    "CScholarTrack is your organization hub. Use it to keep your research notes and documents ready for any external funding portal you discover."
                   </p>
                 </div>
               </div>
@@ -203,7 +208,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
 
       <footer className="bg-gray-50 py-12 px-6">
         <div className="max-w-6xl mx-auto text-center text-sm text-gray-400">
-          <p>© 2024 CScholarTrack. Your gateway to global education.</p>
+          <p>© 2024 CScholarTrack. Your professional management partner for global education funding.</p>
         </div>
       </footer>
     </div>
